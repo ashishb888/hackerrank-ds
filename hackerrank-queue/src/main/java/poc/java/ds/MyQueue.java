@@ -10,6 +10,7 @@ public class MyQueue {
 	}
 
 	public int peek() {
+		// Check for NPE
 		return head.data;
 	}
 
@@ -26,6 +27,7 @@ public class MyQueue {
 	}
 
 	public int remove() {
+		// Check for NPE
 		int data = head.data;
 		head = head.next;
 
